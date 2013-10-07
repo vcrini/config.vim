@@ -1,1 +1,0 @@
-screen.vba.vmb: call delete('/home/vcrini/.vim/autoload/screen.vim')|call delete('/home/vcrini/.vim/doc/screen.txt')|call delete('/home/vcrini/.vim/plugin/screen.vim')

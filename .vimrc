@@ -21,6 +21,7 @@ nnoremap <silent> ]b :bnext<CR>
 nnoremap <silent> [B :bfirst<CR>
 nnoremap <silent> ]B :blast<CR>
 set wildmode=longest,list
+
 " Able perl -c on sourcefile
 compiler! perl
 set number
@@ -35,6 +36,7 @@ let vimclojure#WantNailgun = 1
 
 vmap ,px !xmllint --format -<CR>
 vmap ,pr !xmllint --format --recover -<CR>
+
 "encoding for url purpose
 map ,pd  <Esc>:%! decode.pl<CR>
 map ,pdv <Esc>:'<,'>! decode.pl<CR>

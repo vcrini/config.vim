@@ -25,7 +25,6 @@ set wildmode=longest,list
 compiler! perl
 set number
 set hidden
-colo torte
 set backupdir=~/.backupdir,/tmp
 set directory=~/.backupdir,/tmp
 

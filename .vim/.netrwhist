@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/media/sda1/vcrini/subversion/rufus.old/trunk/Buongiorno-Rufus/src/main/resources/perl/Dada'
+let g:netrw_dirhist_2='/media/sda1/vcrini/subversion/rufus.old/trunk/Buongiorno-Rufus/src/main/resources/perl/Dada/Ares'

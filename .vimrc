@@ -8,6 +8,7 @@ Bundle 'gmarik/vundle'
 Bundle 'vim-scripts/ack.vim'
 Bundle 'VimClojure'
 Bundle 'Syntastic'
+"Bundle 'Decho'
 
 filetype plugin indent on  
 "end of vundle configuration
@@ -85,3 +86,12 @@ let g:syntastic_perl_checkers = ['perlcritic']
 "let g:syntastic_python_checkers = ['pylint']
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_always_populate_loc_list=1
+command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()
+function! QuickfixFilenames()
+" Building a hash ensures we get each buffer only once
+  let buffer_numbers = {}
+  for quickfix_item in getqflist()
+    let buffer_numbers[quickfix_item['bufnr']] = bufname(quickfix_item['bufnr'])
+  endfor
+  return join(map(values(buffer_numbers), 'fnameescape(v:val)'))
+endfunction

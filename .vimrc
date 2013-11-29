@@ -8,6 +8,7 @@ Bundle 'gmarik/vundle'
 Bundle 'vim-scripts/ack.vim'
 Bundle 'VimClojure'
 Bundle 'Syntastic'
+Bundle 'taglist.vim'
 "Bundle 'Decho'
 
 filetype plugin indent on  
@@ -100,3 +101,7 @@ let g:lasttab = 1
 nmap <Leader>gt :exe "tabn ".g:lasttab<CR>
 au TabLeave * let g:lasttab = tabpagenr()
 
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set autoindent

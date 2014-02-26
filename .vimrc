@@ -9,6 +9,7 @@ Bundle 'vim-scripts/ack.vim'
 Bundle 'VimClojure'
 Bundle 'Syntastic'
 Bundle 'taglist.vim'
+Bundle 'Puppet-Syntax-Highlighting'
 "Bundle 'Decho'
 
 filetype plugin indent on  

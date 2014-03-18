@@ -1,0 +1,10 @@
+--ignore-dir=target
+--color
+--color-lineno=bright_black
+--color-filename=bright_blue
+--color-match=bright_red
+--sort-files
+--smart-case
+--follow
+--group
+--pager=LESS=FSRX less -r

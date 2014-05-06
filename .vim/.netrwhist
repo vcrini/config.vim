@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/media/sda1/vcrini/subversion/rufus.old/trunk/Buongiorno-Rufus/src/main/resources/perl/Dada'
-let g:netrw_dirhist_2='/media/sda1/vcrini/subversion/rufus.old/trunk/Buongiorno-Rufus/src/main/resources/perl/Dada/Ares'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/vcrini/subversion/dadamobile/backend/monolith/branches/QA/src/main/resources/perl5/DadaMobile/WebHow'
+let g:netrw_dirhist_2='/home/vcrini/subversion/dadamobile/backend/monolith/branches/QA/src/main/resources/perl5/DadaMobile'
+let g:netrw_dirhist_3='/home/vcrini/subversion/dadamobile/backend/monolith/branches/QA/src/main/resources/perl5/DadaMobile/WebHow/Event'
+let g:netrw_dirhist_4='/home/vcrini/subversion/dadamobile/backend/monolith/branches/QA/src/main/resources/perl5/DadaMobile/WebHow'
+let g:netrw_dirhist_5='/home/vcrini/subversion/dadamobile/backend/monolith/branches/QA/src/main/resources/perl5/DadaMobile'
+let g:netrw_dirhist_6='/home/vcrini/subversion/dadamobile/backend/monolith/branches/QA/src/main/resources/perl5/DadaMobile/WebHow'
+let g:netrw_dirhist_7='/home/vcrini/subversion/dadamobile/backend/monolith/branches/QA/src/main/resources/perl5/DadaMobile/WebHow/Subscribe'

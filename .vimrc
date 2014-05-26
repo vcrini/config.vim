@@ -10,6 +10,7 @@ Bundle 'VimClojure'
 Bundle 'Syntastic'
 Bundle 'taglist.vim'
 Bundle 'Puppet-Syntax-Highlighting'
+Bundle 'Python-mode-klen'
 "Bundle 'Decho'
 
 filetype plugin indent on  
@@ -103,3 +104,5 @@ nmap <Leader>gt :exe "tabn ".g:lasttab<CR>
 au TabLeave * let g:lasttab = tabpagenr()
 
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
+let g:pymode_lint_write = 0
+let g:pymode_folding = 0

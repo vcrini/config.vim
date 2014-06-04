@@ -106,3 +106,5 @@ au TabLeave * let g:lasttab = tabpagenr()
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 let g:pymode_lint_write = 0
 let g:pymode_folding = 0
+let g:pymode_lint_ignore = "E501"
+

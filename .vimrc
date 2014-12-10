@@ -47,6 +47,7 @@ map ,pdv <Esc>:'<,'>! decode.pl<CR>
 map ,pe  <Esc>:%! encode.pl<CR>
 map ,pev <Esc>:'<,'>! encode.pl<CR>
 map ,ps  ml ,pt 'l<Esc>:w <CR>
+map ,ss <Esc>:set hlsearch<CR>/\S\zs\s\{2,\}<CR>
 augroup pythononly
 autocmd!
 autocmd FileType python call MyPythonSettings()

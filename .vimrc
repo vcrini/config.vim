@@ -1,3 +1,4 @@
+set runtimepath^=/home/vcrini/Dropbox/personale.git/src/viml/plugin/mpc
 set nocompatible
 "for using vundle
 filetype off                   " required!
@@ -107,4 +108,3 @@ let mapleader=","
 "let g:pymode_lint_ignore = "E501"
 "
 "to learn viml
-set runtimepath+=/home/vcrini/Dropbox/personale.git/src/viml/plugin/mpc

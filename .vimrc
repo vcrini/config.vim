@@ -7,11 +7,10 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'vim-scripts/ack.vim'
 Bundle 'VimClojure'
-Bundle 'Syntastic'
+"Bundle 'Syntastic'
 Bundle 'taglist.vim'
 Bundle 'Puppet-Syntax-Highlighting'
 Bundle 'Python-mode-klen'
-"Bundle 'Decho'
 
 filetype plugin indent on  
 "end of vundle configuration
@@ -83,13 +82,13 @@ function MyCSettings()
     " set mappings...
     map ,pt  <Esc>:%! astyle<CR>
 endfunction
-colorscheme blue
+colorscheme evening
 
-let g:syntastic_check_on_open=1
-let g:syntastic_perl_checkers = ['perlcritic']
-"let g:syntastic_python_checkers = ['pylint']
-let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_always_populate_loc_list=1
+"let g:syntastic_check_on_open=1
+"let g:syntastic_perl_checkers = ['perlcritic']
+""let g:syntastic_python_checkers = ['pylint']
+"let g:syntastic_python_checkers = ['flake8']
+"let g:syntastic_always_populate_loc_list=1
 command! -nargs=0 -bar Qargs execute 'args' QuickfixFilenames()
 function! QuickfixFilenames()
 " Building a hash ensures we get each buffer only once
@@ -103,9 +102,9 @@ endfunction
 let g:lasttab = 1
 nmap <Leader>gt :exe "tabn ".g:lasttab<CR>
 au TabLeave * let g:lasttab = tabpagenr()
+let mapleader=","
 
-set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
-let g:pymode_lint_write = 0
-let g:pymode_folding = 0
-let g:pymode_lint_ignore = "E501"
-
+"let g:pymode_lint_ignore = "E501"
+"
+"to learn viml
+set runtimepath+=/home/vcrini/Dropbox/personale.git/src/viml/plugin/mpc
